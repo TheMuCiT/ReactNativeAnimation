@@ -8,7 +8,7 @@ const AnimationScreen = () => {
     if (!anim.current) {
       return;
     }
-    anim.current.play(0, 30);
+    anim.current.play();
   };
   return (
     <View style={styles.container}>
